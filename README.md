@@ -62,6 +62,6 @@ Der Arduino liest die Werte des Ultraschallmessers aus, berechnet die Distanz un
 ## Gehäuse
 
 * Gehäuse Arduino, Ultraschallsensor 1, Powerbank
-** 3D-Druck
-** Laser Cutter
+* 3D-Druck
+* Laser Cutter
 * Gehäuse Display + LED 3D-Druck
