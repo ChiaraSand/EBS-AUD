@@ -23,15 +23,15 @@ Powerbank (ca 2500mA/h für einen Tag)
 RGB-LED
 
 # Schaltplan
-EBS WiSe1819 ChiaraSandführ Schaltplan.png
-Ultraschallsensor 1[Bearbeiten]
+
+## Ultraschallsensor 1
 Sensor1.VCC ( → Breadboard ) → Arduino.5V
 Sensor1.Trig → Arduino.A2 (beliebig, Festlegung im Code)
 Sensor1.Echo → Arduino.A3 (beliebig, Festlegung im Code)
 Sensor1.GND → Arduino.GND
 
 
-# Ultraschallsensor 2
+## Ultraschallsensor 2
 Sensor2.VCC → Arduino.5V
 Sensor2.Trig → Arduino.A4 (beliebig, Festlegung im Code)
 Sensor2.Echo → Arduino.A5 (beliebig, Festlegung im Code)
