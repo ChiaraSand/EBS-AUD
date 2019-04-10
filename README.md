@@ -13,13 +13,13 @@ Der Arduino liest die Werte des Ultraschallmessers aus, berechnet die Distanz un
 
 
 # Material
-* Gehäuse (3D-Druck oder Laser Cutter)
-** Arduino (UNO)
-** Ultraschallsensor (HC - SR04, Datenblatt)
-** Powerbank (ca 2500mA/h für einen Tag)
-* 3D-gedrucktes Gehäuse
-** 16x2 LCD-Display (1602A, Datenblatt)
-** RGB-LED
+* Haupt-Box (3D-Druck oder Laser Cutter)
+* Arduino (UNO)
+* Ultraschallsensor (HC - SR04, Datenblatt)
+* Powerbank (ca 2500mA/h für einen Tag)
+* Gehäuse für Signalausgabe
+* 16x2 LCD-Display (1602A, Datenblatt)
+* RGB-LED
 
 # Verschaltung
 
