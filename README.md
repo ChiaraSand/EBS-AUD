@@ -17,12 +17,11 @@ Der Arduino liest die Werte des Ultraschallmessers aus, berechnet die Distanz un
 * Arduino (UNO)
 * Ultraschallsensor (HC - SR04, Datenblatt)
 * Powerbank (ca 2500mA/h für einen Tag)
-
 * 3D-gedrucktes Gehäuse
 * 16x2 LCD-Display (1602A, Datenblatt)
 * RGB-LED
 
-# Schaltplan
+# Verschaltung
 
 ## Ultraschallsensor 1
 * Sensor1.VCC ( → Breadboard ) → Arduino.5V
