@@ -2,7 +2,7 @@
 Assistive Ultraschall-Distanzmessung für Rollstühle
 
 
-# Allgemein
+## Allgemein
 Das Haupt-System, die Box mit dem Arduino, der Stromversorgung und einem Sensor, wird unter der Fussablage des Rollstuhls angebracht. Diese lässt sich durch Klettverschluss-Punkte leicht abmontieren und austauschen. Alles Elemente des Projekts sind modular. Es können leicht weitere Sensoren angebracht werden, der Arduino kann einfach ausgetauscht werden und die Powerbank lässt sich zum Aufladen oder Austauschen leicht entfernen.
 
 Der Arduino liest die Werte des Ultraschallmessers aus, berechnet die Distanz und gibt diese auf dem LCD-Display aus. Zusätzlich leuchtet die RGB-LED in Signalfarben um die Gefahr der Distanz zu bewerten.
@@ -12,7 +12,7 @@ Der Arduino liest die Werte des Ultraschallmessers aus, berechnet die Distanz un
 * \> 10 cm → rotes Licht
 
 
-# Material
+## Material
 * Haupt-Box (3D-Druck oder Laser Cutter)
 * Arduino (UNO)
 * Ultraschallsensor (HC - SR04, Datenblatt)
@@ -21,23 +21,23 @@ Der Arduino liest die Werte des Ultraschallmessers aus, berechnet die Distanz un
 * 16x2 LCD-Display (1602A, Datenblatt)
 * RGB-LED
 
-# Verschaltung
+## Verschaltung
 
-## Ultraschallsensor 1
+### Ultraschallsensor 1
 * Sensor1.VCC ( → Breadboard ) → Arduino.5V
 * Sensor1.Trig → Arduino.A2 (beliebig, Festlegung im Code)
 * Sensor1.Echo → Arduino.A3 (beliebig, Festlegung im Code)
 * Sensor1.GND → Arduino.GND
 
 
-## Ultraschallsensor 2
+### Ultraschallsensor 2
 * Sensor2.VCC → Arduino.5V
 * Sensor2.Trig → Arduino.A4 (beliebig, Festlegung im Code)
 * Sensor2.Echo → Arduino.A5 (beliebig, Festlegung im Code)
 * Sensor2.GND → Arduino.GND
 
 
-## LCD-Display
+### LCD-Display
 * LCD.GND (Pin1) → Arduino.GND
 * LCD.VCC (Pin2) → Arduino.5V
 * LCD.V0 (Pin3) → Arduino.3V3
@@ -52,14 +52,14 @@ Der Arduino liest die Werte des Ultraschallmessers aus, berechnet die Distanz un
 * LCD.Pin16 (K) → Arduino.GND
 
 
-## RGB-LED
+### RGB-LED
 * LED.GND → Arduino.GND
 * LED.Red → Arduino.Pin11
 * LED.Green → Arduino.Pin10
 * LED.Blue → Arduino.Pin9
 
 
-# Gehäuse
+## Gehäuse
 
 * Gehäuse Arduino, Ultraschallsensor 1, Powerbank
 ** 3D-Druck
